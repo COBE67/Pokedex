@@ -1,0 +1,74 @@
+type Pokemon {
+    id: ID! @unique
+    name: String!
+    height: String!
+    weight: String!
+    gender: String!
+    abilities: String!
+    type: String!
+    weaknesses:String!
+    species: String!
+}
+
+enum gender {
+    Male
+    Female
+    Unknown
+}
+
+enum type {
+    Normal
+    Fire
+    Water
+    Electric
+    Grass
+    Ice
+    Fighting
+    Poison
+    Ground
+    Flying
+    Psychic
+    Bug
+    Rock
+    Ghost
+    Dragon
+    Dark
+    Steel
+    Fairy
+}
+
+enum species {
+    Starter
+    Fossil
+    Baby
+    Legendary
+    Mythical
+    Ultra Beast
+}
+
+enum symbol {
+    †
+    ~
+    ※
+    ‡
+    ♭
+    ♯
+}
+
+enum color {
+    #9FCADF
+    #CCDFDC
+    #F7D9D3
+    #E89483
+    #DCD677
+    #B7A3C3
+}
+
+enum abilities {
+    Adaptability
+    Aerilate
+    Blaze
+    Chlorophyll
+    Clear Body
+    Compound Eyes
+}
